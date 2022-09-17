@@ -19,6 +19,7 @@
   position: relative;
   padding-left: 30px;
 }
+
 .li {
   background: rgb(39, 173, 240);
   text-align: center;
@@ -55,4 +56,13 @@
 .btn:hover {
   background: #49a1dc;
   color: white;
+}
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 17px;
+  }
+  .p {
+    color: rgb(106, 106, 106);
+    font-size: 15px;
+  }
 }
